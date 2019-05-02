@@ -250,6 +250,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 
 	// action performed for button clicks
 	public void actionPerformed(ActionEvent e) {
+		//if show station button clicked :
 		if (e.getSource() == showStation) {
 			txt2.setText("");
 			sortDistance((String) box.getSelectedItem());
