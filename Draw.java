@@ -58,6 +58,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 	int[] nodes = new int[5];
 	JTextArea create = new JTextArea();
 
+	//Main method starts the program
 	public static void main(String[] args) throws IOException {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
