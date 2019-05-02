@@ -140,7 +140,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridy = 1;
 		contentPane.add(slider, gbc);
 
-		//big text area
+		//enter hamming dist text field
 		txt1.setEditable(false);
 		txt1.setText(String.valueOf(slider.getValue()));
 		txt1.setColumns(5);
@@ -154,6 +154,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		showStation.addActionListener(this);
 		contentPane.add(showStation, gbc);
 
+		//big text area
 		txt2.setEditable(false);
 		txt2.setColumns(20);
 		txt2.setRows(15);
