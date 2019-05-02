@@ -166,6 +166,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		contentPane.add(scroll, gbc);
 
+		//compare text field
 		gbc.gridx = 0;
 		gbc.gridy = 4;
 		contentPane.add(compare, gbc);
