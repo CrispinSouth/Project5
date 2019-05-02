@@ -184,6 +184,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		calculateHD.addActionListener(this);
 		contentPane.add(calculateHD, gbc);
 
+		//labels for distance
 		gbc.gridx = 0;
 		gbc.gridy = 6;
 		contentPane.add(d0, gbc);
