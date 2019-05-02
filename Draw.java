@@ -161,6 +161,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridx = 0;
 		gbc.gridy = 3;
 
+		// setting to make big text area scrollable
 		JScrollPane scroll = new JScrollPane(txt2);
 		scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		contentPane.add(scroll, gbc);
