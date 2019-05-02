@@ -22,7 +22,8 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
 /**
- * 
+ * GUI with hamming distance
+ * 2 May, 2019
  * @author crispinsouth
  *
  */
