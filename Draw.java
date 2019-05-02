@@ -254,6 +254,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		if (e.getSource() == showStation) {
 			txt2.setText("");
 			sortDistance((String) box.getSelectedItem());
+		//if calculate hamming distance button clicked :
 		} else if (e.getSource() == calculateHD) {
 			for (int i = 0; i < nodes.length; i++) {
 				nodes[i] = 0;
