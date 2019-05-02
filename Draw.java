@@ -33,6 +33,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 	private JPanel creativePane;
 	public static ArrayList<String> mes = new ArrayList<String>();
 
+	//GUI components and array declared here to be universal
 	JLabel label1 = new JLabel("Enter Hamming Dist:");
 	JSlider slider = new JSlider(1, 4, 1);
 	JTextField txt1 = new JTextField("");
