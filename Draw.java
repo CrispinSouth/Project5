@@ -287,6 +287,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		}
 	}
 
+	// calculate hamming distance
 	public int dist(String s1, String s2) {
 		int dist = 0;
 
@@ -299,6 +300,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		return dist;
 	}
 
+	// find distances (nodes from project 1)
 	public int[] findNodes(String strg) {
 
 		// for loop goes through each item in arraylist mes.
@@ -326,6 +328,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 
 	}
 
+	// displays distances into text fields
 	public void displayNodes() {
 		dis0.setText(String.valueOf(nodes[0]));
 		dis1.setText(String.valueOf(nodes[1]));
@@ -334,6 +337,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		dis4.setText(String.valueOf(nodes[4]));
 	}
 
+	// puts items into big text area based on hamming distance
 	public void sortDistance(String strg) {
 		for (String item : mes) {
 			if (dist(item, strg) == slider.getValue()) {
