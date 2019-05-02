@@ -130,6 +130,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridy = 0;
 		contentPane.add(label1, gbc);
 
+		//slider settings
 		slider.addChangeListener(this);
 		slider.setMajorTickSpacing(1);
 		slider.setPaintTicks(true);
