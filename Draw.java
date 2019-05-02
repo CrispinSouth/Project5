@@ -140,6 +140,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridy = 1;
 		contentPane.add(slider, gbc);
 
+		//big text area
 		txt1.setEditable(false);
 		txt1.setText(String.valueOf(slider.getValue()));
 		txt1.setColumns(5);
