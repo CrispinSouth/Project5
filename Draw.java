@@ -275,6 +275,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		}
 	}
 
+	// changes text field for hamming distance according to slider
 	public void stateChanged(ChangeEvent a) {
 		txt1.setText(String.valueOf(slider.getValue()));
 	}
