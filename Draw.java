@@ -91,7 +91,8 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		br.close();
 		return mes;
 	}
-
+	
+	// adding all the GUI elements into the panel
 	public Draw() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 750, 750);
