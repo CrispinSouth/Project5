@@ -18,7 +18,9 @@ In the draw method, all of the universal gui variables are given their respectiv
 and added to the contentPane. The creativePane's elements, JLabel create and JTextArea creative are added to it.
 creativePane is added to contentPane.
 The following variables are added to contentPane and are universal:
-  JLabel label1
+  	
+	JLabel label1
+	
 	JSlider slider
 	
 	JTextField txt1
