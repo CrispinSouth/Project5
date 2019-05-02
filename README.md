@@ -16,7 +16,8 @@ are read into the arraylist.
 
 In the draw method, all of the universal gui variables are given their respective places on the gridBagLayout,
 and added to the contentPane. The creativePane's elements, JLabel create and JTextArea creative are added to it.
-creativePane is added to contentPane.
+creativePane is added to contentPane.The creativePane displays text reading: "Behold the guy :" and an emoticon of a shrugging guy.
+
 The following variables are added to contentPane and are universal:
   	
 	JLabel label1
