@@ -21,6 +21,12 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
+/**
+ * 
+ * @author crispinsouth
+ *
+ */
+
 public class Draw extends JFrame implements ActionListener, ChangeListener {
 	private JPanel contentPane;
 	private JPanel creativePane;
@@ -91,27 +97,24 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		GridBagLayout layout = new GridBagLayout();
 		contentPane.setLayout(layout);
 		GridBagConstraints gbc = new GridBagConstraints();
-		
+
 		creativePane = new JPanel();
 		creativePane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		GridBagLayout layout1 = new GridBagLayout();
 		creativePane.setLayout(layout1);
 		GridBagConstraints gbc1 = new GridBagConstraints();
-		create.setText("¯|_(ツ)_/¯ \n" 
-				     + "        |      \n"
-				     + "       / \\     \n");
+		create.setText("¯|_(ツ)_/¯ \n" + "        |      \n" + "       / \\     \n");
 		create.setFont(new Font("Arial", Font.PLAIN, 25));
 		create.setEditable(false);
-		
+
 		gbc1.gridx = 0;
 		gbc1.gridy = 0;
 		creativePane.add(creative, gbc1);
-		
+
 		gbc1.gridx = 0;
 		gbc1.gridy = 1;
 		creativePane.add(create, gbc1);
-		
-		
+
 		gbc.gridx = 3;
 		gbc.gridy = 2;
 		contentPane.add(creativePane, gbc);
@@ -146,10 +149,10 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		txt2.setRows(15);
 		gbc.gridx = 0;
 		gbc.gridy = 3;
-		
-		JScrollPane scroll = new JScrollPane (txt2);
-	    scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-	    contentPane.add(scroll, gbc);
+
+		JScrollPane scroll = new JScrollPane(txt2);
+		scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		contentPane.add(scroll, gbc);
 
 		gbc.gridx = 0;
 		gbc.gridy = 4;
@@ -232,15 +235,13 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		if (e.getSource() == showStation) {
 			txt2.setText("");
 			sortDistance((String) box.getSelectedItem());
-		}
-		else if(e.getSource() == calculateHD) {
+		} else if (e.getSource() == calculateHD) {
 			for (int i = 0; i < nodes.length; i++) {
 				nodes[i] = 0;
 			}
 			nodes = findNodes((String) box.getSelectedItem());
 			displayNodes();
-		}
-		else if(e.getSource() == addStation) {
+		} else if (e.getSource() == addStation) {
 			boolean addThis = false;
 			for (String item : mes) {
 				if (!add.getText().equalsIgnoreCase(item)) {
@@ -252,7 +253,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 			}
 		}
 	}
-	
+
 	public void stateChanged(ChangeEvent a) {
 		txt1.setText(String.valueOf(slider.getValue()));
 	}
@@ -317,5 +318,4 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 			}
 		}
 	}
-	
 }
