@@ -178,6 +178,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridy = 4;
 		contentPane.add(box, gbc);
 
+		//calculate hamming distance button
 		gbc.gridx = 0;
 		gbc.gridy = 5;
 		calculateHD.addActionListener(this);
