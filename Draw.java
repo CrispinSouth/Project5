@@ -248,6 +248,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 
 	}
 
+	// action performed for button clicks
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == showStation) {
 			txt2.setText("");
