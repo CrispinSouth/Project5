@@ -148,6 +148,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridy = 0;
 		contentPane.add(txt1, gbc);
 
+		// Show Station Button
 		gbc.gridx = 0;
 		gbc.gridy = 2;
 		showStation.addActionListener(this);
