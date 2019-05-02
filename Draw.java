@@ -280,6 +280,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		txt1.setText(String.valueOf(slider.getValue()));
 	}
 
+	// puts all items from mesonet arraylist into combo box
 	public void itemsToDropdown() {
 		for (String item : mes) {
 			box.addItem(item);
