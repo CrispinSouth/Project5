@@ -74,6 +74,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		mes = mes("Mesonet.txt");
 	}
 
+	// reads Mesonet.txt into arraylist like in project 1
 	public static ArrayList<String> mes(String fileName) throws IOException {
 
 		BufferedReader br = new BufferedReader(new FileReader(fileName));
