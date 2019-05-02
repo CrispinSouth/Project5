@@ -171,6 +171,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridy = 4;
 		contentPane.add(compare, gbc);
 
+		//combo box
 		itemsToDropdown();
 		box.setSelectedItem("NRMN");
 		gbc.gridx = 1;
