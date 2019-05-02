@@ -261,6 +261,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 			}
 			nodes = findNodes((String) box.getSelectedItem());
 			displayNodes();
+		//if add Station button clicked :
 		} else if (e.getSource() == addStation) {
 			boolean addThis = false;
 			for (String item : mes) {
