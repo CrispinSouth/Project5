@@ -20,25 +20,45 @@ creativePane is added to contentPane.
 The following variables are added to contentPane and are universal:
   JLabel label1
 	JSlider slider
+	
 	JTextField txt1
+	
 	JButton showStation
+	
 	JTextArea txt2
+	
 	JLabel compare
+	
 	JComboBox<String> box
+	
 	JButton calculateHD
+	
 	JLabel d0
+	
 	JLabel d1
+	
 	JLabel d2
+	
 	JLabel d3
+	
 	JLabel d4
+	
 	JTextField dis0
+	
 	JTextField dis1
+	
 	JTextField dis2
+	
 	JTextField dis3
+	
 	JTextField dis4
+	
 	JButton addStation
+	
 	JTextField add
+	
 	JLabel creative
+	
 	JTextArea create
   
 The actionPerformed method handles all button clicks. For the ShowStation button,
