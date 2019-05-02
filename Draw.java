@@ -205,6 +205,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridy = 10;
 		contentPane.add(d4, gbc);
 
+		//text fields for distances
 		gbc.gridx = 1;
 		gbc.gridy = 6;
 		dis0.setEditable(false);
