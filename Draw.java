@@ -125,6 +125,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		gbc.gridy = 2;
 		contentPane.add(creativePane, gbc);
 
+		//enter hamming dist label
 		gbc.gridx = 0;
 		gbc.gridy = 0;
 		contentPane.add(label1, gbc);
