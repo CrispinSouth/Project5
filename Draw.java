@@ -103,6 +103,7 @@ public class Draw extends JFrame implements ActionListener, ChangeListener {
 		contentPane.setLayout(layout);
 		GridBagConstraints gbc = new GridBagConstraints();
 
+		//panel for creative bit
 		creativePane = new JPanel();
 		creativePane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		GridBagLayout layout1 = new GridBagLayout();
